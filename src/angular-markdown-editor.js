@@ -1,5 +1,5 @@
 angular
-  .module('angular-markdown-editor', [])
+  .module('eip-angular-markdown-editor', [])
   .directive('markdownEditor', ['$rootScope', function ($rootScope) {
     return {
         restrict: 'A',
